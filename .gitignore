@@ -415,3 +415,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/eagle,latex,windows,macos,linux
+
+*.DESKTOP*
+*.pdsbak
+*.tmp
