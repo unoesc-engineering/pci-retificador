@@ -18330,8 +18330,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1"/>
 <part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TL" device="" package3d_urn="urn:adsk.eagle:package:30344/1"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2,5-6E" package3d_urn="urn:adsk.eagle:package:23430/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2"/>
@@ -18455,14 +18453,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="IC2" gate="A" x="67.31" y="168.91" smashed="yes">
 <attribute name="NAME" x="69.85" y="161.29" size="1.778" layer="95"/>
 <attribute name="VALUE" x="69.85" y="158.75" size="1.778" layer="96"/>
-</instance>
-<instance part="C9" gate="G$1" x="30.48" y="166.37" smashed="yes">
-<attribute name="NAME" x="32.004" y="166.751" size="1.778" layer="95"/>
-<attribute name="VALUE" x="32.004" y="161.671" size="1.778" layer="96"/>
-</instance>
-<instance part="C10" gate="G$1" x="39.37" y="166.37" smashed="yes">
-<attribute name="NAME" x="40.513" y="166.8526" size="1.778" layer="95"/>
-<attribute name="VALUE" x="40.513" y="161.7726" size="1.778" layer="96"/>
 </instance>
 <instance part="C11" gate="G$1" x="90.17" y="166.37" smashed="yes">
 <attribute name="NAME" x="91.694" y="166.751" size="1.778" layer="95"/>
@@ -18598,19 +18588,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="109.22" y="80.01"/>
 <pinref part="+12" gate="-2" pin="KL"/>
 <wire x1="95.25" y1="80.01" x2="95.25" y2="82.55" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="-"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="90.17" y1="161.29" x2="90.17" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="90.17" y1="158.75" x2="39.37" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="158.75" x2="39.37" y2="161.29" width="0.1524" layer="91"/>
-<junction x="39.37" y="158.75"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="161.29" x2="30.48" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="158.75" x2="39.37" y2="158.75" width="0.1524" layer="91"/>
 <pinref part="ADJ" gate="-2" pin="KL"/>
 <wire x1="134.62" y1="161.29" x2="134.62" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="90.17" y1="158.75" x2="99.06" y2="158.75" width="0.1524" layer="91"/>
-<junction x="90.17" y="158.75"/>
 <pinref part="C12" gate="G$1" pin="-"/>
 <wire x1="99.06" y1="158.75" x2="129.54" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="158.75" x2="134.62" y2="158.75" width="0.1524" layer="91"/>
@@ -18649,14 +18631,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$10" class="1">
 <segment>
-<wire x1="19.05" y1="168.91" x2="30.48" y2="168.91" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="+"/>
-<wire x1="30.48" y1="168.91" x2="39.37" y2="168.91" width="0.1524" layer="91"/>
-<junction x="39.37" y="168.91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<junction x="30.48" y="168.91"/>
 <pinref part="IC2" gate="A" pin="IN"/>
-<wire x1="39.37" y1="168.91" x2="59.69" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="168.91" x2="59.69" y2="168.91" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="C"/>
 <pinref part="D2" gate="1" pin="C"/>
 <wire x1="95.25" y1="71.12" x2="95.25" y2="66.04" width="0.1524" layer="91"/>
