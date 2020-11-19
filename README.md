@@ -1,4 +1,4 @@
-# Retificador em placa PCI
+# Retificador em placa de circuito impresso
 
 Este projeto tem como propósito a elaboração de
 um protótipo de retificador, a fim de tomar conhecimento da
