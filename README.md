@@ -1,4 +1,4 @@
-# pci-retificador
+# Retificador em placa PCI
 
 Este projeto tem como propósito a elaboração de
 um protótipo de retificador, a fim de tomar conhecimento da
@@ -21,4 +21,3 @@ confiabilidade.
  - Bruna Stofel
  - Bruno Cesca
  - Mateus Calza
-
